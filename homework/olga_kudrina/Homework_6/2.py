@@ -1,9 +1,9 @@
-for x in range(1, 100):
-    if x % 3 == 0 and x % 5 == 0:
+for numbers in range(1, 100):
+    if numbers % 3 == 0 and numbers % 5 == 0:
         print('FuzzBuzz')
-    elif x % 5 == 0:
+    elif numbers % 5 == 0:
         print('Buzz')
-    elif x % 3 == 0:
+    elif numbers % 3 == 0:
         print('Fuzz')
     else:
-        print(x)
+        print(numbers)
